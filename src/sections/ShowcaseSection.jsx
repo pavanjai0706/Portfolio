@@ -45,9 +45,6 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           {/* SnapCast Project */}
           <div ref={snapcastRef} className="first-project-wrapper">
-            <div className="image-wrapper bg-gray-900 flex items-center justify-center text-white h-[200px]">
-              <span className="text-lg">SnapCast Preview</span>
-            </div>
             <div className="text-content">
               <h2>SnapCast – Record, Upload & Share Videos Seamlessly</h2>
               <p className="text-white-50 md:text-xl">
@@ -60,9 +57,6 @@ const AppShowcase = () => {
           {/* StoreIt Project */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={storeitRef}>
-              <div className="image-wrapper bg-gray-800 flex items-center justify-center text-white h-[200px]">
-                <span className="text-lg">StoreIt Preview</span>
-              </div>
               <h2>StoreIt – Personal Cloud File Storage App</h2>
               <p className="text-white-50 md:text-base px-2 pb-4">
                 A secure and user-friendly cloud storage platform built with Next.js and Appwrite. Upload, preview, and manage your files seamlessly.
