@@ -70,7 +70,7 @@ const expCards = [
   },
 ];
 
-// Updated with your 5 key skills.
+// Temporarily commented out the skills that are missing models
 const techStackIcons = [
   {
     name: "Fullstack Development",
@@ -78,24 +78,28 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
+  /* --- UNCOMMENT THIS SECTION AFTER ADDING THE 'brain-transformed.glb' MODEL ---
   {
     name: "AI / ML",
-    modelPath: "/models/brain-transformed.glb", // You need to add this model
+    modelPath: "/models/brain-transformed.glb",
     scale: 0.4,
     rotation: [0, 0, 0],
   },
+  */
   {
     name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
+  /* --- UNCOMMENT THIS SECTION AFTER ADDING THE 'javascript-transformed.glb' MODEL ---
   {
     name: "JavaScript",
-    modelPath: "/models/javascript-transformed.glb", // You need to add this model
+    modelPath: "/models/javascript-transformed.glb",
     scale: 0.8,
     rotation: [0, Math.PI / 2, 0],
   },
+  */
   {
     name: "Version Control",
     modelPath: "/models/git-svg-transformed.glb", // Using Git logo for version control
@@ -104,18 +108,20 @@ const techStackIcons = [
   },
 ];
 
-// Updated with your social media links
+// Temporarily commented out the social link that is missing an image
 const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/pavanjai0706",
   },
+  /* --- UNCOMMENT THIS SECTION AFTER ADDING THE 'github.png' IMAGE ---
   {
     name: "github",
-    imgPath: "/images/github.png", // Make sure you add github.png to /public/images/
+    imgPath: "/images/github.png",
     link: "https://github.com/pavanjai0706",
   },
+  */
 ];
 
 
